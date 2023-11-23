@@ -2,7 +2,7 @@ close all
 clear
 clc
 % 1. Duomenų paruošimas
-X = 0.1:1/44:1;
+X = 0.1:1/22:1;
 % for H = 1:19
 % for K = 1:19
 Y =  (1 + 0.6*sin(2*pi*X/0.7)) + 0.3*sin(2*pi*X)/2;
